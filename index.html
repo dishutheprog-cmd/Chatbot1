@@ -137,7 +137,7 @@
     <script>
         // State Machine
         let state = {
-            apiKey: localStorage.getItem('nexus_api_key') || '',
+            apiKey: localStorage.getItem('nexus_api_key') || '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',
             model: localStorage.getItem('nexus_model') || 'google/gemini-2.5-pro:free',
             chats: JSON.getObj('nexus_chats') || {}, // Schema: { id: { title: string, messages: [] } }
             activeChatId: localStorage.getItem('nexus_active_id') || null
